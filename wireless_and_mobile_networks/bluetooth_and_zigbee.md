@@ -8,9 +8,9 @@ Key features:
 
 * **Range**: short
 * **Power**: low
-* **Cost**: low
+* **Energy consumption**: low
 * **Band**: 2.4 GHz (unlicensed)
-* **Max transfer speed**: 4 Mb/s
+* **Transfer speed**: 4 Mb/s (max)
 
 Based on these features, Bluetooth network can be a good "replacement of
 cable" for peripheral devices like keyboard, mouse, headphones or mobile phones

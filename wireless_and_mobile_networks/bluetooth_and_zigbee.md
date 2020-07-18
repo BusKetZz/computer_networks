@@ -31,3 +31,28 @@ transmissions of each device.
 Besides subdevices, there are up to 255 *parked* devices, which cannot
 establish connection until parent node changes their status to active.
 
+
+
+## Zigbee (IEEE 802.15.4)
+
+Key features:
+
+* **Power**: lower than Bluetooth
+* **Energy consumption**: lower than Bluetooth
+* **Transfer speed**: 20, 40, 100, 250 kb/s (depending upon channel frequency)
+
+It may be counterintuitive: "what is the point to use even weaker than
+Blutetooth kind of network?"... The answer is simple, there is no always need
+for high power and long range networks. Temperature or light sensors do not
+require such high capacity to transfer their data, they are simple, cheap and
+low-power devices spending their time mostly in a sleep mode. That is why,
+Zigbee standard is great for them.
+
+Zigbee networks consist of one fully functional device (similar to parent in
+Bluetooth) and many devices with limited functionality (similar to subdevices
+in Bluetooth). Fully functional device plays the leader role and controls many
+subdevices.
+
+Group of fully functional devices may create a *mesh network*, which enables
+them transfer of data frames with each other.
+

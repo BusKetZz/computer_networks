@@ -1,5 +1,9 @@
 # Bluetooth and Zigbee
 
+![bluetooth logo](images/bluetooth_logo.png)
+
+![zigbee logo](images/zigbee_logo.png)
+
 
 
 ## Bluetooth (IEEE 802.15.1)
